@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /*
+  grid
+  inline-grid
+  gap:
+  row-gap
+  column-gap
+  grid-template-rows: auto auto;
+  grid-template-columns: auto auto auto;
+  grid-column-start: 1
+  grid-column-end: 
+  grid-row-start:
+  grid-row-end:
+
+*/
+
+section {
+  height: 100vh;
+  width: 100vw;
+  display: inline-grid;
+  grid-template-columns: auto auto auto auto;
+  column-gap: 30px;
+  row-gap: 30px;
+  grid-column-start: 1;
+  grid-column-end: 3;
+}
+
+body {
+  margin: 0;
+}
+
+div {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+}
+    </style>
+</head>
+<body>
+    <section>
+        <div class="item1">lorem</div>
+        <div class="item2">lorem</div>
+        <div class="item3">lorem</div>
+        <div class="item4">lorem</div>
+        <div class="item5">lorem</div>
+        <div class="item6">lorem</div>
+        <div class="item7">lorem</div>
+        <div class="item8">lorem</div>
+        </section>    
+</body>
+</html>
